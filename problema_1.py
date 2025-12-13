@@ -157,8 +157,8 @@ def procesar_video(file):
             out.write(frame)
             #frame_number += 1
             #print('*****************')
-            if cv2.waitKey(25) & 0xFF == ord('q'): # Espera 25 milisegundos a que se presione una tecla. Si se presiona 'q' se rompe el bucle y se cierra la ventana.
-                break
+            #if cv2.waitKey(25) & 0xFF == ord('q'): # Espera 25 milisegundos a que se presione una tecla. Si se presiona 'q' se rompe el bucle y se cierra la ventana.
+            #    break
         else:  
             break  
 
